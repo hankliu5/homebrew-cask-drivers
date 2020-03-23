@@ -17,6 +17,8 @@ cask 'nvidia-cuda' do
   depends_on macos: [
                       :sierra,
                       :high_sierra,
+                      :mojave,
+                      :catalina,
                     ]
 
   installer script: {
